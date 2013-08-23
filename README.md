@@ -1,26 +1,24 @@
-# Art [![Build Status](https://secure.travis-ci.org/avdgaag/art.png?branch=master)](http://travis-ci.org/avdgaag/art)
+# Arrate: Arjan's Rails templates
 
 ## Introduction
 
-TODO description
+This gem overrides some commonly used Rails generator templates to better suit
+what I would normally write.
 
 ## Installation
 
-Gista is distributed as a Ruby gem, which should be installed on most Macs and
-Linux systems. Once you have ensured you have a working installation of Ruby
-and Ruby gems, install the gem as follows from the command line:
+Add the gem to your Gemfile:
 
-    $ gem install art
+    gem 'arrate'
 
 ## Usage
 
-TODO usage
+Use generators like you would normally. New templates provided by this gem will
+be automatically picked up. Templates include:
 
-### Documentation
-
-See the inline [API
-docs](http://rubydoc.info/github/avdgaag/art/master/frames) for more
-information.
+* Scaffold controller
+* Haml views
+* RSpec controller specs
 
 ## Other
 
@@ -38,17 +36,18 @@ information.
 ### Issues
 
 Please report any issues, defects or suggestions in the [Github issue
-tracker](https://github.com/avdgaag/art/issues).
+tracker](https://github.com/avdgaag/arrate/issues).
 
 ### What has changed?
 
-See the [HISTORY](https://github.com/avdgaag/art/blob/master/HISTORY.md) file
+See the [HISTORY](https://github.com/avdgaag/arrate/blob/master/HISTORY.md) file
 for a detailed changelog.
 
 ### Credits
 
 Created by: Arjan van der Gaag
 URL: [http://arjanvandergaag.nl](http://arjanvandergaag.nl)
-Project homepage: [http://avdgaag.github.com/art](http://avdgaag.github.com/art)
+Project homepage:
+[http://avdgaag.github.com/arrate](http://avdgaag.github.com/arrate)
 Date: april 2012
-License: [MIT-license](https://github.com/avdgaag/art/blob/master/LICENSE) (same as Ruby)
+License: [MIT-license](https://github.com/avdgaag/arrate/blob/master/LICENSE) (same as Ruby)

@@ -1,0 +1,7 @@
+%dl
+  <% attributes.each do |attribute| %>
+    %dt= attribute.human_name
+    %dd= <%= singular_table_name %>.<%= attribute.name %>
+  <% end %>
+
+= link_to 'Edit', [:edit, <%= singular_table_name %>]
