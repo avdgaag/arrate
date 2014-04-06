@@ -3,4 +3,4 @@ require 'arrate/version'
 module Arrate
 end
 
-require 'arrate/railtie' if defined? Rails
+require 'arrate/engine' if defined? Rails

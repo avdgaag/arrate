@@ -1,13 +1,8 @@
-require 'arrate/helpers'
 require 'arrate/form_builder'
 require 'rails'
 
 module Arrate
-  class Railtie < ::Rails::Railtie
-    initializer 'arrate.helpers' do
-      ActionView::Base.send :include, Arrate::Helpers
-    end
-
+  class Engine < ::Rails::Engine
     config.action_view.default_form_builder = Arrate::FormBuilder
 
     config.app_generators do |g|
